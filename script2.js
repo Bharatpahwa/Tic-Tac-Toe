@@ -1,6 +1,6 @@
 const cells = document.querySelectorAll(".cell");
 let playername1 = prompt("Player 1 name ? ");
-let playername2 = prompt("Player 1 name ? ");
+let playername2 = prompt("Player 2 name ? ");
 let name1 = (document.querySelector(".p-1").textContent = playername1);
 let name2 = (document.querySelector(".p-2").textContent = playername2);
 const winner = document.querySelector(".winner");
